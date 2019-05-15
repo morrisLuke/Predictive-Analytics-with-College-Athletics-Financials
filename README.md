@@ -18,7 +18,7 @@ Answering the final question also uncovered which variables play the biggest par
  
 ## About The Data
 
-The data being examined was taken from a Huffington Post/Chronicle of Higher Education study of five years’ worth of public university athletic departments’ filings on the money going in and out of the program, to and from where. In all, the dataset has 49 variables and 1,014 cases.
+The data being examined was taken from a [Huffington Post/Chronicle of Higher Education study](https://projects.huffingtonpost.com/projects/ncaa/sports-at-any-cost) of five years’ worth of public university athletic departments’ filings on the money going in and out of the program, to and from where. In all, the dataset has 49 variables and 1,014 cases.
 
 Some tweaks to the original dataset were made to ready it for the analysis I am doing. I eliminated entries from Utah valley State because of null values that complicated analysis. Errors discovered in Florida’s 2013 filing led to exclusion of that case. I also added in a `grouping` category to associate a team as a "Power Five," "Group of Five" or "other" program depending on its conference affiliation. An `isPowerFive` category served as a binary of whether or not a program was part of the Power Five. Also, many of the variables ended up being different variations of the same thing (e.g. ticket sales vs. inflation-adjusted ticket sales). In those cases, inflation-adjusted figures were used for analysis. Many variables that were essentially subtotals of other variables combined were also excluded from analysis. 
 
